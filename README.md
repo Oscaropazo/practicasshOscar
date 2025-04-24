@@ -82,4 +82,4 @@
   
     ![Paso 2](imagenes/imagen_7_2.png)
 
-![Paso 6](imagenes/imagen_6_1.png)
+
