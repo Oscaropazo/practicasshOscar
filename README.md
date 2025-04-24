@@ -11,15 +11,15 @@
 
 ![imagen](imagenes/imagen_1_1.png)
 
-![Paso 1](imagenes/imagen_1_2.png)
+![imagen](imagenes/imagen_1_2.png)
 
 ## 2. Conexión por SSH
 
 - Conectarse por SSH a las dos máquinas
 - 
-  ![Paso 2](imagenes/imagen_2_1.png)
+  ![imagen](imagenes/imagen_2_1.png)
   
-![Paso 1](imagenes/imagen_2_2.png)
+![imagen](imagenes/imagen_2_2.png)
 
 - Añadir los usuarios **Alex**, En la maquina A y **Brais** en la maquina B
   
