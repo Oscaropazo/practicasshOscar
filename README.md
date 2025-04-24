@@ -1,4 +1,4 @@
-# Tarea de SSH y SCP
+# Practica de SSH y SCP
 
 ## 1. Configuración de maquinas virtuales
 
