@@ -1,45 +1,45 @@
 # Tarea de SSH y SCP
 
-## 1. Configuración de las máquinas virtuales
+## 1. Configuración de maquinas virtuales
 
-- Crear dos máquinas virtuales (A y B) con sus respectivos adaptadores de red:
+- Crear dos máquinas virtuales A y B
   - Adaptador 1: tipo **NAT**
-    - Una máquina con el reenvío de puertos predeterminado
+    - Una máquina con el puerto **2222**
     - La otra con el puerto **2223**
   - Adaptador 2: tipo **Red Interna**
-    - Para permitir la comunicación entre ambas máquinas
+    - Para la comunicación entre máquinas
 
 ![Paso 1](imagenes/imagen_1_1.png)
 
 ## 2. Conexión por SSH
 
-- Conectarse por SSH a ambas máquinas
-- Añadir los usuarios **Alex** y **Brais** en sus respectivas máquinas
-- Configurar la IP en ambas máquinas
+- Conectarse por SSH a las dos máquinas
+- Añadir los usuarios **Alex**, En la maquina A y **Brais** en la maquina B
+- Configurar la IP de las máquinas
 
 ![Paso 2](imagenes/imagen_2_1.png)
 
 ## 3. Prueba de conexión
 
-- Conectarse desde la máquina A a la máquina B
-- Conectarse desde cada máquina a la otra y:
+- Conectar la máquina A a la máquina B
+- Conectar cada máquina a la otra y:
   - Crear un directorio en `/tmp`
-  - Dejar un archivo como prueba de haberlo conseguido
+  - Dejar un archivo como prueba
 
 ![Paso 3](imagenes/imagen_3_1.png)
 
 ## 4. Copia de archivos
 
-- Copiar desde cada máquina el archivo creado anteriormente
-- Copiar esos archivos a la máquina nativa
+- Copiar desde cada máquina el archivo que creamos antes
+- Copiar esos archivos a la maquina real
 
 ![Paso 4](imagenes/imagen_4_1.png)
 
 ## 5. Prueba de carga masiva
 
 - Crear el directorio `prueba3`
-- Generar 200 archivos dentro del mismo
-- Transferir ese directorio completo a la máquina nativa
+- Generar denrto 200 archivos dentro del mismo
+- Transferir ese directorio completo a la máquina real
 
 ![Paso 5](imagenes/imagen_5_1.png)
 
@@ -47,6 +47,6 @@
 
 - Generar clave SSH en la máquina A
 - Transferir la clave pública a la máquina B
-- Verificar la conexión mediante autenticación por frase (clave)
+- Verificar la conexión mediante autenticación por frase
 
 ![Paso 6](imagenes/imagen_6_1.png)
