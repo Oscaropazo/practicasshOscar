@@ -9,7 +9,7 @@
   - Adaptador 2: tipo **Red Interna**
     - Para la comunicación entre máquinas
 
-![Paso 1](imagenes/imagen_1_1.png)
+![imagen](imagenes/imagen_1_1.png)
 
 ![Paso 1](imagenes/imagen_1_2.png)
 
